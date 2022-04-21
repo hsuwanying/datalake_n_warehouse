@@ -4,7 +4,7 @@ Design and develop a travel data warehouse and traveler-insight dashboard with t
 #### Data Piplines:
 
 - Airflow Dag:
-  - call_api.py: DAG file fetches media information from Posts on Instagram based on 30 unique hashtags
+  - callapi.py: DAG file fetches media information from Posts on Instagram based on 30 unique hashtags
 
 - Python & Jupyter Notebook:
   - List_of_Zip_code_Switzerland.ipynb: zip_code.csv data clearning and loading to RDS_PostgreSQL
