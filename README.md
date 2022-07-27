@@ -1,4 +1,4 @@
-### datalake_warehouse
+### Treavelling digital journey insights analysis & data visualization
 Design and develop a travel data warehouse and traveler-insight dashboard with the use of Instagram and Google trend data, which aims to help Swiss travel service providers to better understand and capture digital travelers’ preference.
 
 #### Data Piplines:
