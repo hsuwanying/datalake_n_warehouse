@@ -27,14 +27,11 @@ When reviewing travel websites, many travel-related websites are more or less pr
 
 **Business Questions 1**:
 “How can we improve tourist travel experience in Switzerland by utilizing social media and search engine data? “
- 
- - Follow up questions:
 1. What are the popular destinations in Switzerland that people search for travelling?
 2. Which city do people are interested the most in Switzerland?
 
 **Business Questions 2**:
 “How do individuals and businesses utilize social media hashtags to boost their online presence and performance?”
- - Follow up questions:
 1. What are the popular hashtags (top 5) used in Switzerland?
 2. What are the popular hashtags (top 5) based on Swiss canton or city or destinations
 name?
