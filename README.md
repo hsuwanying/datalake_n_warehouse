@@ -1,6 +1,5 @@
-# Treavelling digital journey insights analysis & data visualization
-Design and develop a travel data warehouse and traveler-insight dashboard with the use of Instagram and Google trend data, which aims to help Swiss travel service providers to better understand and capture digital travelers’ preference.
-
+# Discover the Immstagramable destinations in Switzrerland
+Improving Swiss OTAs online booking experience by analysing social media and search engine data to generate insights into traveller insights
 
 This project is submitted as part of assignemnt for Data Warehousing and Data Lake module for MSc in [IDS](https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/applied-information-and-data-science/) at [HSLU](https://www.hslu.ch/de-ch/)
 
