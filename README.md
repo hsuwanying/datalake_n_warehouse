@@ -4,8 +4,8 @@ This project aims to build a travel data warehouse and create an insight dashboa
 This group project is submitted as part of assignemnt for Data Warehousing and Data Lake module for MSc in [IDS](https://www.hslu.ch/en/lucerne-school-of-business/degree-programmes/master/applied-information-and-data-science/) at [HSLU](https://www.hslu.ch/de-ch/)
 
 # Authors
-[Carol Hsu](https://github.com/hsuwanying)
-[Cheuh Yang](https://github.com/cyyang50)
+ - [Carol Hsu](https://github.com/hsuwanying) 
+ - [Cheuh Yang](https://github.com/cyyang50)
 
 # Table of Content
  - [Background](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#initial-situation)
