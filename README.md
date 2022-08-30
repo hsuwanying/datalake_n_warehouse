@@ -32,7 +32,11 @@ This project is submitted as part of assignemnt for Data Warehousing and Data La
   ## Data Piplines
 # Data Analysis
 # Prototype
-A visual dashboard is created by using Tableau. It gives key metries about travel destination in Switzerland. The dashboard can be seen in [Tableau Public] (https://public.tableau.com/app/profile/yang7231/viz/Dashboard_final_16402072757680/FinalDashboard?publish=yes)
+A visual dashboard is created by using Tableau. It gives key metries about travel destination in Switzerland. 
+
+The dashboard can be seen in 
+[Tableau Public](https://public.tableau.com/app/profile/yang7231/viz/Dashboard_final_16402072757680/FinalDashboard?publish=yes)
+
 # Conclusion
 # Project Reflection
 # Notebook
