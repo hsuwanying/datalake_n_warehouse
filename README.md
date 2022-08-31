@@ -1,4 +1,4 @@
-# Discovering the Immstagramable destinations in Switzerland: A Traveller Insights analysis from Data Collection to Data Visualization
+# Discovering the Immstagramable destinations in Switzerland: A Traveller Insights analysis from data Collection to data Visualization
 ### This project aims to build a travel data warehouse and create an insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data. 
 
 <br>
