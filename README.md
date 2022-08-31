@@ -13,6 +13,9 @@
 # Authors & Contribution
  - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
  - [Cheuh Yang](https://github.com/cyyang50): Data Architecture, Data Engeneering (Google Trend, Simplemap), Data Analysis, Prototype
+
+# Project duration
+ - Oct 01, 2021 ~ Dec 23, 2021
  
 # Table of Content
  - [Business Problem](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#business-problem)
@@ -23,7 +26,7 @@
  - [Limitation](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#limitation)
  - [Conclusion](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#conclusion)
  - [Project Reflection](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#project-reflection)
- - [Notebook](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#notebook)
+ - [Code Files](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#code-files)
  - [Reference](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#reference)
 
 
@@ -84,21 +87,20 @@ The dashboard can be seen in
 # Limitation
 Ideally, we wanted to get location tags to create a traveler insights app, but Instagram depreciated local tag endpoints from its API due to privacy issues. There was no way to get location tags (I have also tried with web scraping but fail...). Therefore we decided to use #inLoveWithSwitzerland, the primary hashtag from MySwitzerland, and 26 Kanton names in English as the basis to fetch relevant tags in each Instagram post. Although we couldn't capture all the locations in Switzerland, the collected information was sufficient to create a minimal viable prototype for this project.
 
-
 # Conclusion
 The design of the database helps us to realize the information that is obtained from both Google Trends and Instagram. We can generate insights to answer our business questions by establishing analysis requirements. Since we do not have data from the user side, the dashboard is more focused on the value creation to business providers such as online travel agents and marketing firms, so that can utilize matrics from this dashboard to provide more personalized service and products to travelers.
 
 # Project Reflection
 It was a great experience to apply my business and customer experience expertise to digital product design. From this course, I have learned many hard skills in the data engineering field; we had a chance to apply knowledge and utilize popular tools such as AWS and Airflow to realize our business idea within three months. Working on a big project within such a short time (while writing a master's thesis) was pretty stressful. Nevertheless, the gains of this module were tremendous, which equipped us with fundamental skills and knowledge to interact with database tools. 
 
-# Notebook
+# Code Files
   - Airflow Dag:
-    - callapi.py: DAG file fetches media information from Posts on Instagram based on 30 unique hashtags
+    - [callapi.py](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/callapi.py): DAG file fetches media information from Posts on Instagram based on 30 unique hashtags
 
-  - Python & Jupyter Notebook:
-    - List_of_Zip_code_Switzerland.ipynb: zip_code.csv data cleaning and loading to RDS_PostgreSQL
-    - my_switzerland_API.ipynb: Fetching destination information with the use of MySwitzerland API
-    - Insta_create_hashtag.ipynb: Fetching Instagram hashtag media information with the use of Instagram Graph API
+  - Jupyter Notebook:
+    - [List_of_Zip_code_Switzerland.ipynb](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/List_of_Zip_code_Switzerland.ipynb): zip_code.csv data cleaning and loading to RDS_PostgreSQL
+    - [my_switzerland_API.ipynb](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/my_switzerland_API.ipynb): Fetching destination information with the use of MySwitzerland API
+    - [Insta_create_hashtag.ipynb](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/Insta_create_hashtag.ipynb): Fetching Instagram hashtag media information with the use of Instagram Graph API
 # Reference
  - [Expedia Group Media Solution (2015) *How Marketers Can Reach Travel Bookers Across the Consumer Funnel*](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/)
  - [Statista (2022) *Online Cart Abandonment Rate Worldwide*](https://www.statista.com/statistics/457078/category-cart-abandonment-rate-worldwide/)
