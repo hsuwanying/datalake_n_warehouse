@@ -30,15 +30,10 @@ This project aims to build a travel data warehouse and create an insight dashboa
  - [Code Files](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#code-files)
  - [Reference](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#reference)
 
-
 # Business Problem
-<br>
-<blockquote>
-Websites that provide travel-related products have a 98% abandonment rate among all businesses. Statista
-</blockquote>
-<br>
+> *Websites that provide travel-related products have a 98% abandonment rate among all businesses. Statista (2022)*
 
-Booking a trip is not easy, as said by Expedia, <q>Travel is complicated to book</q>, it is becasue people often need to spend time on searching destinations, hotels and compare price of flight fares and hotels; most travelers will not only visit one site; they visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. In addtion, there are too man options that makes the entire buying process is complicate, and therefore delay their buying decision cycle. This would eventurally lead to low conversions and impact on sales.
+Booking a trip is not easy, as said by Expedia ["Travel is complicated to book"](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says), it is because travelers usually will not only visit one website, they visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The entire process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other services; in addition, there are too many options available in the market, that will delay traveler's buying decision cycle, and will eventually lead to low conversions and impact on sales.
 
 # Soution
 To help Swiss OTAs improve conversions across travelers' digital journeys, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, which can help OTAs to opt for booking expereince and content marketing
