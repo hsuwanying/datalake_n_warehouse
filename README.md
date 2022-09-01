@@ -32,7 +32,13 @@ This project aims to build a travel data warehouse and create an insight dashboa
 
 
 # Business Problem
-According to [Statista](https://www.statista.com/statistics/457078/category-cart-abandonment-rate-worldwide/), websites that provide travel-related products have a 98% abandonment rate among all businesses. It can be associated with searching destinations, comparing accommodations and flight fares,  and complex buying processes within the customer journey. In addition, most travelers will not only visit one site; they visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before deciding where to book; that means the consumers spend more time searching for products, which will delay their buying decision cycle; and lead to low conversions and impact on sales.
+<br>
+<blockquote>
+Websites that provide travel-related products have a 98% abandonment rate among all businesses. Statista
+</blockquote>
+<br>
+
+Booking a trip is not easy, as said by Expedia, <q>Travel is complicated to book</q>, it is becasue people often need to spend time on searching destinations, hotels and compare price of flight fares and hotels; most travelers will not only visit one site; they visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. In addtion, there are too man options that makes the entire buying process is complicate, and therefore delay their buying decision cycle. This would eventurally lead to low conversions and impact on sales.
 
 # Soution
 To help Swiss OTAs improve conversions across travelers' digital journeys, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, which can help OTAs to opt for booking expereince and content marketing
