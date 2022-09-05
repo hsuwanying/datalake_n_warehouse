@@ -44,11 +44,11 @@ When mapping out travelers' digital journey, we found OTAs still play an essenti
 Social media has gained importance in traveler's digital journey (Smith & Anderson,2018), and travel feeds on Instagram have become one of the powerful indicators that trigger traveler’s decision to plan where they should visit in the coming up trips (Han & Chen, 2021). To understand how social media and online search impact traveler's buying decisions and to help Swiss OTAs improve conversions across travelers' digital journeys, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, which can help OTAs to opt for booking experience as well as content marketing.
 
 # Methods
-We used design thinking approach to design a traveler insight dashboard that can help Swiss OTAs to leverage social media and seach data to optimize conversion accross traveler's digital jounery, to achieve the project goal, we built a travel database with data engeneer techniques, which incldues
- - Data source: Define data collection stratrgy by mapping out traveler's digital jounry touchpoints
- - Data Architecture: Demonstrates data flow and system with [AWS RDS](https://aws.amazon.com/rds/) according to business needs
- - Data pipelines: Construct ETL and ELT workflow use [Apache Airflow](https://airflow.apache.org)
- - Data Modelling: Presents a business data schema use ER Model
+We applied an user-centered approach to derive minimal viable product, that can help Swiss OTAs to leverage social media and seach data to optimize conversion accross traveler's digital jounery, to achieve the project goal, a travel database is built with the following data engeneer techniques: 
+ 1. Data source: Define data collection stratrgy by mapping out traveler's digital jounry touchpoints
+ 2. Data Architecture: Demonstrates data flow and system with [AWS RDS](https://aws.amazon.com/rds/) according to business needs
+ 3. Data pipelines: Construct ETL and ELT workflow use [Apache Airflow](https://airflow.apache.org)
+ 4. Data Modelling: Presents a business data schema use ER Model
 
 <p align = "center">
 <img width="893" alt="Data Architecture" src="https://user-images.githubusercontent.com/72688726/187533413-9f9aec3c-7b5d-441f-ba11-5c0e9aaa7494.png">
