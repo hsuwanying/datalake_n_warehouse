@@ -1,7 +1,7 @@
 # Discovering Immstagramable destinations in Switzerland
 ### A traveller insights analysis from data collection to data visualization
 
-["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says), indeed, booking a trip is far more complicate than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve converstion accross traveller's digital jounery, we decised to build a travel data warehouse and create an insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
+["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says), indeed, booking a trip is far more complicate than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve converstion accross traveller's digital jounery, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
 
 <br>
 <p align = "center">
