@@ -41,11 +41,11 @@ Booking a trip is an easy task, according to Expedia(2015), travellers visit an 
 When mapping out travelers' digital journey, we found OTAs still play an essential role in the early product search phase; however, with the increasing research and planning, the less the OTAs can impact their buying decisions. That means the more products or services the traveler views, the slow they get to make a purchase. The delayed traveler's buying decision cycle will eventually lead to low conversions and an impact on sales.
 
 # Soution
-Social media has gained importance in traveler's digital journey (Smith & Anderson,2018), and travel feeds on Instagram have become one of the powerful indicators that trigger traveler’s decision to plan where they should visit in the coming up trips (Han & Chen, 2021). To understand how social media and online search impact traveler's buying decisions and to help Swiss OTAs improve conversions across travelers' digital journeys, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, which can help OTAs to opt for booking experience as well as content marketing.
+Social media has gained importance in traveler's digital journey (Smith & Anderson,2018), and travel feeds on Instagram have become one of the powerful indicators that trigger traveler’s decision to plan where they should visit in the coming up trips (Han & Chen, 2021). To understand how social media and online search impact traveler's buying decisions and to help Swiss OTAs improve conversions across travelers' digital journeys, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, which can help OTAs to opt for booking experience as well as effective marketing.
 
 # Methods
 We applied an user-centered approach to derive minimal viable product, that can help Swiss OTAs to leverage social media and seach data to optimize conversion accross traveler's digital jounery, to achieve the project goal, a travel database is built with the following data engeneer techniques: 
- 1. Data source: Define data collection stratrgy by mapping out traveler's digital jounry touchpoints
+ 1. Data source: A traveler’s digital journey is deployed to identify critical data touchpoints and user needs.
  2. Data Architecture: Demonstrates data flow and system with [AWS RDS](https://aws.amazon.com/rds/) according to business needs
  3. Data pipelines: Construct ETL and ELT workflow use [Apache Airflow](https://airflow.apache.org)
  4. Data Modelling: Presents a business data schema use ER Model
