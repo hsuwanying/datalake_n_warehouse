@@ -1,16 +1,15 @@
-# Discovering Immstagramable destinations in Switzerland
-### A traveller insights analysis from data collection to data visualization
-
-["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says), indeed, booking a trip is far more complicate than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve converstion accross traveller's digital jounery, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
-
-<br>
 <p align = "center">
-<img src ="https://user-images.githubusercontent.com/72688726/187684537-4684634f-89e6-49a7-82b2-4b912576281a.jpeg">
+<img width="700" src ="https://user-images.githubusercontent.com/72688726/187684537-4684634f-89e6-49a7-82b2-4b912576281a.jpeg">
 </p>
 <p align = "center">Photo by
 <a href="https://user-images.githubusercontent.com/72688726/187684537-4684634f-89e6-49a7-82b2-4b912576281a.jpeg">Devam Jhabak</a> on <a href="https://unsplash.com/s/photos/spam?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 </p>
 <br>
+
+# Discovering Immstagramable destinations in Switzerland
+### A traveller insights analysis from data collection to data visualization
+
+["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says), indeed, booking a trip is far more complicate than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve converstion accross traveller's digital jounery, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
 
 # Authors & Contribution
  - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
@@ -51,7 +50,7 @@ We applied an user-centered approach to derive minimal viable product, that can 
  4. Data Modelling: Presents a business data schema use ER Model
 
 <p align = "center">
-<img width="893" alt="Data Architecture" src="https://user-images.githubusercontent.com/72688726/187533413-9f9aec3c-7b5d-441f-ba11-5c0e9aaa7494.png">
+<img width="600" alt="Data Architecture" src="https://user-images.githubusercontent.com/72688726/187533413-9f9aec3c-7b5d-441f-ba11-5c0e9aaa7494.png">
 <br>Data Architecture
 </p>
 <br>
@@ -81,7 +80,7 @@ To address the business problem, we constructed data piplines that present key m
 
 <br>
 <p align = "center">
-<img width="838" alt="IG Hashtag Statistic" src="https://user-images.githubusercontent.com/72688726/187530598-4457abd1-1ca8-452a-a5ec-129c52f2126b.png">
+<img width="600" alt="IG Hashtag Statistic" src="https://user-images.githubusercontent.com/72688726/187530598-4457abd1-1ca8-452a-a5ec-129c52f2126b.png">
 <br>IG Hashtag Statistic
 </p>
 <br>
