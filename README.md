@@ -15,8 +15,11 @@
  - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
  - [Cheuh Yang](https://github.com/cyyang50): Data Architecture, Data Engeneering (Google Trend, Simplemap), Data Analysis, Prototype
 
-# Project duration
- - Oct 01, 2021 ~ Dec 23, 2021
+# Project Requirements
+  - To build an end-to-end data pipeline and make it available for business analysis in a data warehouse environment
+  - Duration: Oct 01, 2021 ~ Dec 23, 2021
+  - Use at least 2 APIs to obatian static and non static data
+  - Present a prototype use data visualiation tools
  
 # Table of Content
  - [Background](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#background)
