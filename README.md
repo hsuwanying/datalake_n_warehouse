@@ -37,20 +37,20 @@
 # Background
 > *Websites that provide travel-related products have a 98% abandonment rate among all businesses. Statista (2022)* 
 
-Booking a trip is an easy task, according to Expedia(2015), travellers visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The booking process includes finding where to travel, which airline to fly with, where to stay, and so on. Each step involved too many products and options that put travelers in the paradox of choice and make the customer journey even more complicated than in other industries.
+According to Expedia(2015), travellers visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The booking process includes finding where to travel, which airline to fly with, where to stay, and so on. Each step involved too many products and options that put travelers in the paradox of choice and make the customer journey even more complicated than in other industries.
 
 # Business Problem
-When mapping out travelers' digital journey, we found OTAs still play an essential role in the early product search phase; however, with the increasing research and planning, the less the OTAs can impact their buying decisions. That means the more products or services the traveler views, the slow they get to make a purchase. The delayed traveler's buying decision cycle will eventually lead to low conversions and an impact on sales.
+Although online travel agancies still play an essential role in the early product search phase of a customer jounery, with an increases researching and planning time, the less the OTAs can impact a traveler's buying decisions, that means, the more products or services a traveler viewed, the slow the person will to make a purchase. The delayed traveler's buying decision cycle will eventually lead to low conversions and an impact on sales.
 
 # Soution
-Social media has gained importance in traveler's digital journey (Smith & Anderson,2018), and travel feeds on Instagram have become one of the powerful indicators that trigger traveler’s decision to plan where they should visit in the coming up trips (Han & Chen, 2021). To understand how social media and online search impact traveler's buying decisions and to help Swiss OTAs improve conversions across travelers' digital journeys, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, which can help OTAs to opt for booking experience as well as effective marketing.
+When mapping out a traveler's digital jounery, we found social media has gained importance in traveler's decision making process (Smith & Anderson,2018), and travel feeds on Instagram have become one of the powerful indicators that trigger traveler’s decision to plan where they should visit in the coming up trips (Han & Chen, 2021). To understand how social media and online search impact traveler's buying decisions and to help Swiss OTAs improve online booking experience as well as effective marketing, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, 
 
 # Methods
 A travel database is built with the following data engeneer techniques: 
- 1. Data source: A traveler’s digital journey is deployed to identify critical data touchpoints and user needs.
- 2. Data Architecture: Demonstrates data flow and system with [AWS RDS](https://aws.amazon.com/rds/) according to business needs
+ 1. Data source: A traveler’s digital journey is deployed to identify critical data touchpoints and data collection strategies
+ 2. Data Architecture: Demonstrates data system with [AWS RDS](https://aws.amazon.com/rds/) according to business needs
  3. Data pipelines: Construct ETL and ELT workflow use [Apache Airflow](https://airflow.apache.org)
- 4. Data Modelling: Presents a business data schema use ER Model
+ 4. Data Modelling: Apply ER Model to prrsent a business data schema 
 
 <p align = "center">
 <img width="600" alt="Data Architecture" src="https://user-images.githubusercontent.com/72688726/187533413-9f9aec3c-7b5d-441f-ba11-5c0e9aaa7494.png">
@@ -66,9 +66,6 @@ A travel database is built with the following data engeneer techniques:
 | [die Post ](https://swisspost.opendatasoft.com/explore/dataset/plz_verzeichnis_v2/table/?disjunctive.postleitzahl) | Download the “PLZ_Verzeichnis” CSV file via the link<br />It provides  `Postleitzahl`, `Ortbez18`, and `Kanton`, and information of each city |
 
 # Result - Prototype
-The prototype presnets our MVP based on business questions, key metrics about travel destinations in Switzerland are presented with a dashboard made by Tableau. The full dashboard can be seen in 
-[Tableau Public](https://public.tableau.com/app/profile/yang7231/viz/Dashboard_final_16402072757680/FinalDashboard?publish=yes)
-
 To address the business problem, we constructed data piplines that present key metrics and with our proposed traveler insight dashboard. The graph IG Hashtag Statistic gives information about the usage of hashtags in each Instagram post. We are able to answer the following questions:
 <br>
 **Business Questions 1**:
@@ -87,7 +84,8 @@ To address the business problem, we constructed data piplines that present key m
 <br>IG Hashtag Statistic
 </p>
 <br>
-Posts with the hashtag Zurich receives the most likes, which has 169’235 likes and 6’170 comments in Switzerland; in the same period, Valais and Luzern are the second and third place, with 144’957 and 120’267 likes. Then we look at the donut chart, Zurich Wallis and Uri are the most popular cantons, and Zurich, Zermatt, and Interlaken are the most admired cities. Therefore, we can conclude that Zurich is the most popular and most visited place in Switzerland.
+Posts with the hashtag Zurich receives the most likes, which has 169’235 likes and 6’170 comments in Switzerland; in the same period, Valais and Luzern are the second and third place, with 144’957 and 120’267 likes. Then we look at the donut chart, Zurich Wallis and Uri are the most popular cantons, and Zurich, Zermatt, and Interlaken are the most admired cities. Therefore, we can conclude that Zurich is the most popular and most visited place in Switzerland. A full dashboard can be seen in [Tableau Public](https://public.tableau.com/app/profile/yang7231/viz/Dashboard_final_16402072757680/FinalDashboard?publish=yes)
+
 
 # Limitation
 Ideally, we wanted to get location tags to create a traveler insights app, but Instagram depreciated local tag endpoints from its API due to privacy issues. There was no way to get location tags (I have also tried with web scraping but fail...). Therefore we decided to use #inLoveWithSwitzerland, the primary hashtag from MySwitzerland, and 26 Kanton names in English as the basis to fetch relevant tags in each Instagram post. Although we couldn't capture all the locations in Switzerland, the collected information was sufficient to create a minimal viable prototype for this project.
