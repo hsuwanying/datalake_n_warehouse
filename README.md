@@ -65,7 +65,7 @@ A travel database is built with the following data engeneer techniques:
 | [MySwitzerland API](https://developer.myswitzerland.io)      | 1. A public API that provides swiss tourist content via MySwitzerland website. <br />2. Access information **name**, an **identifier** that refers to a unique ID of each **destination**, and corresponding **geo-location data**. <br />3. 4114 destinations stored in 412 pages<br />4. 1 request per second and 10 returns in a burst <br />5. Set `time. sleep(2)` to avoid blocking by the system |
 | [die Post ](https://swisspost.opendatasoft.com/explore/dataset/plz_verzeichnis_v2/table/?disjunctive.postleitzahl) | Download the “PLZ_Verzeichnis” CSV file via the link<br />It provides  `Postleitzahl`, `Ortbez18`, and `Kanton`, and information of each city |
 
-# Result - Prototype
+# Result: Proposed Prototype
 To address the business problem, we constructed data piplines that present key metrics and with our proposed traveler insight dashboard. The graph IG Hashtag Statistic gives information about the usage of hashtags in each Instagram post. We are able to answer the following questions:
 <br>
 **Business Questions 1**:
