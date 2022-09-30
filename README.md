@@ -98,7 +98,7 @@ Ideally, we wanted to get location tags to create a traveler insights app, but I
 The design of the database helps us to realize the information that is obtained from both Google Trends and Instagram. We can generate insights to answer our business questions by establishing analysis requirements. Since we do not have data from the user side, the dashboard is more focused on the value creation to business providers such as online travel agents and marketing firms, so that can utilize matrics from this dashboard to provide more personalized service and products to travelers.
 
 # Project Reflection
-This project taught me many hard skills in the data engineering field, which equipped me with fundamental skills and knowledge to interact with database tools. Besides, develop a data product using popular software such as AWS and Airflow to realize our business idea into a monetizable product. To sum up, the experience I gained from this course was invaluable to my career journey.
+This project taught me many hard skills in data engineering, which equipped me with fundamental skills and knowledge to interact with database tools and allowed me to combine design thinking with product development. Besides, having the opportunity to use popular software such as AWS and Airflow to realize our business idea into a monetizable product was an invaluable experience I had from this group work.
 
 # Code Files
   - Airflow Dag:
