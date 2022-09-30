@@ -9,7 +9,8 @@
 # Discovering Immstagramable destinations in Switzerland
 ### A traveller insights analysis from data collection to data visualization
 
-["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says), indeed, booking a trip is far more complicate than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve converstion accross traveller's digital jounery, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
+["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says).
+Indeed, booking a trip is far more complicated than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve conversation across travelers' digital journeys, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
 
 # Authors & Contribution
  - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
@@ -40,10 +41,10 @@
 According to Expedia(2015), travellers visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The booking process includes finding where to travel, which airline to fly with, where to stay, and so on. Each step involved too many products and options that put travelers in the paradox of choice and make the customer journey even more complicated than in other industries.
 
 # Business Problem
-Although online travel agancies still play an essential role in the early product search phase of a customer jounery, with an increases researching and planning time, the less the OTAs can impact a traveler's buying decisions, that means, the more products or services a traveler viewed, the slow the person will to make a purchase. The delayed traveler's buying decision cycle will eventually lead to low conversions and an impact on sales.
+Although online travel agencies still play an essential role in the early product search phase of a customer journey, with an increased researching and planning time, the less the OTAs can impact a traveler's buying decisions, that means, the more products or services a traveler views, the slow the person will make a purchase. The delayed traveler's buying decision cycle will eventually lead to low conversions and an impact on sales.
 
 # Soution
-When mapping out a traveler's digital jounery, we found social media has gained importance in traveler's decision making process (Smith & Anderson,2018), and travel feeds on Instagram have become one of the powerful indicators that trigger traveler’s decision to plan where they should visit in the coming up trips (Han & Chen, 2021). To understand how social media and online search impact traveler's buying decisions and to help Swiss OTAs improve online booking experience as well as effective marketing, we designed a traveler insights dashboard that presents key metrics and growing trends by analyzing social media and search engine data, 
+When mapping out a traveler's digital journey, we found social media has gained importance in the traveler's decision-making process (Smith & Anderson,2018). Travel feeds on Instagram have become one of the powerful indicators that trigger travelers’ decision to plan where they should visit on upcoming trips (Han & Chen, 2021). To understand how social media and online search impact travelers' buying decisions and to help Swiss OTAs improve online booking experience and effective marketing, we designed a traveler insights dashboard that presents crucial metrics and trends by analyzing social media and search engine data.
 
 # Methods
 A travel database is built with the following data engeneer techniques: 
@@ -66,7 +67,8 @@ A travel database is built with the following data engeneer techniques:
 | [die Post ](https://swisspost.opendatasoft.com/explore/dataset/plz_verzeichnis_v2/table/?disjunctive.postleitzahl) | Download the “PLZ_Verzeichnis” CSV file via the link<br />It provides  `Postleitzahl`, `Ortbez18`, and `Kanton`, and information of each city |
 
 # Result: Proposed Prototype
-To address the business problem, we constructed data piplines that present key metrics and with our proposed traveler insight dashboard. The graph IG Hashtag Statistic gives information about the usage of hashtags in each Instagram post. We are able to answer the following questions:
+We constructed data pipelines to address the business problem that presents critical metrics with our proposed traveler insight dashboard. The IG Hashtag Statistic graph gives information about hashtag usage in each Instagram post. We can answer the following questions:
+
 <br>
 **Business Questions 1**:
 “How can we improve the tourist travel experience in Switzerland by utilizing social media and search engine data? “
@@ -96,7 +98,7 @@ Ideally, we wanted to get location tags to create a traveler insights app, but I
 The design of the database helps us to realize the information that is obtained from both Google Trends and Instagram. We can generate insights to answer our business questions by establishing analysis requirements. Since we do not have data from the user side, the dashboard is more focused on the value creation to business providers such as online travel agents and marketing firms, so that can utilize matrics from this dashboard to provide more personalized service and products to travelers.
 
 # Project Reflection
-This project taught me many hard skills in the data engineering field, which equipped me with fundamental skills and knowledge to interact with database tools. Besides, develop a data product using popular software such as AWS and Airflow to realize our business idea into a monetizable product. To sum up, the experience I gained from this course was invaluable and vital to my career journey.
+This project taught me many hard skills in the data engineering field, which equipped me with fundamental skills and knowledge to interact with database tools. Besides, develop a data product using popular software such as AWS and Airflow to realize our business idea into a monetizable product. To sum up, the experience I gained from this course was invaluable to my career journey.
 
 # Code Files
   - Airflow Dag:
