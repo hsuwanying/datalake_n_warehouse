@@ -13,7 +13,7 @@
 Indeed, booking a trip is far more complicated than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve conversation across travelers' digital journeys, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
 
 # Authors & Contribution
- - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
+ - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Strategy, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
  - [Cheuh Yang](https://github.com/cyyang50): Data Architecture, Data Engeneering (Google Trend, Simplemap), Data Analysis, Prototype
 
 # Project Requirements
