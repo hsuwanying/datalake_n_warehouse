@@ -87,7 +87,7 @@ We constructed data pipelines to address the business problem that presents crit
 <br>IG Hashtag Statistic
 </p>
 <br>
-Posts with the hashtag Zurich receives the most likes, which has 169’235 likes and 6’170 comments in Switzerland; in the same period, Valais and Luzern are the second and third place, with 144’957 and 120’267 likes. Then we look at the donut chart, Zurich Wallis and Uri are the most popular cantons, and Zurich, Zermatt, and Interlaken are the most admired cities. Therefore, we can conclude that Zurich is the most popular and most visited place in Switzerland.
+Posts with the hashtag Zurich receives the most likes, which has 169’235 likes and 6’170 comments; in the same period, Valais and Luzern are the second and third popular place, with 144’957 and 120’267 likes respectively. Following that, the donut chart shows Zurich, Wallis and Uri are the most popular cantons, and Zurich, Zermatt, and Interlaken are the most admired cities. Therefore, we can conclude that Zurich is the most popular and most visited place in Switzerland.
 
 A full dashboard can be seen in [Tableau Public](https://public.tableau.com/app/profile/yang7231/viz/Dashboard_final_16402072757680/FinalDashboard?publish=yes)
 
