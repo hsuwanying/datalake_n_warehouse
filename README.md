@@ -70,6 +70,7 @@ A travel database is built with the following data engeneer techniques:
 We constructed data pipelines to address the business problem that presents critical metrics with our proposed traveler insight dashboard. The IG Hashtag Statistic graph gives information about hashtag usage in each Instagram post. We can answer the following questions:
 
 <br>
+
 **Business Questions 1**:
 “How can we improve the tourist travel experience in Switzerland by utilizing social media and search engine data? “
 1. What are the popular destinations in Switzerland that people search for traveling?
