@@ -6,7 +6,7 @@
 </p>
 <br>
 
-# Discovering Immstagramable destinations in Switzerland
+# Discovering Immstagramable Destinations in Switzerland
 ### A traveller insights analysis from data collection to data visualization
 
 ["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says).
