@@ -51,7 +51,7 @@ A travel database is built with the following data engeneer techniques:
  1. Data source: A traveler’s digital journey is deployed to identify critical data touchpoints and data collection strategies
  2. Data Architecture: Demonstrates data system with [AWS RDS](https://aws.amazon.com/rds/) according to business needs
  3. Data pipelines: Construct ETL and ELT workflow use [Apache Airflow](https://airflow.apache.org)
- 4. Data Modelling: Apply ER Model to prrsent a business data schema 
+ 4. Data Modelling: Apply ER Model to present a business data schema 
 
 <p align = "center">
 <img width="600" alt="Data Architecture" src="https://user-images.githubusercontent.com/72688726/187533413-9f9aec3c-7b5d-441f-ba11-5c0e9aaa7494.png">
