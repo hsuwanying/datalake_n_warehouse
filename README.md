@@ -7,7 +7,7 @@
 <br>
 
 # Discovering Immstagramable Destinations in Switzerland
-### A traveller insights analysis from data collection to data visualization
+### Design and develop a Traveller data warehouse to improve Swiss Online Travel Agencies(OTAs) conversion accross tourist's digital journey
 
 ["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says).
 Indeed, booking a trip is far more complicated than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve conversation across travelers' digital journeys, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
