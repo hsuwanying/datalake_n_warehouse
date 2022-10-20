@@ -10,7 +10,7 @@
 ### Design and develop a Traveller data warehouse to improve Swiss Online Travel Agencies(OTAs) conversion accross tourist's digital journey
 
 ["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says).
-Indeed, booking a trip is far more complicated than we thought, the entire booking process includes searching destinations, and accommodation, checking flight fares and hotels price as well as comparing different products and packages, which makes the customer journey even more complicated than other industries. To help online travel agencies to improve conversation across travelers' digital journeys, we decided to build a travel data warehouse and create a data insight dashboard that helps Swiss OTAs optimize the online booking experience using social media and search engine data.  
+Booking a trip is a hassle for many travellers as the booking process involves various products, making the customer journey even more complicated than in other industries. To help online travel agencies to improve conversation across travellers' digital journeys, we proposed a travel data warehouse using social media, search engines and MySwitzerland data. We generated traveller insights into a dashboard aimed at helping Swiss OTAs better understand traveller needs and optimise their online booking experience and conversion across the traveller's digital journey.
 
 # Authors & Contribution
  - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Strategy, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
