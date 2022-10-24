@@ -7,10 +7,12 @@
 <br>
 
 # Discovering Immstagramable Destinations in Switzerland
-### Design and develop a Traveller data warehouse to improve Swiss Online Travel Agencies(OTAs) conversion accross tourist's digital journey
+### To capture traveller preferences through digital touchpoints across a traveller's digital journey, a data lake and a data-driven traveller insight dashboard is created aims to help OTAs optimise digital experience and marketing strategy 
+
+
 
 ["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says).
-Booking a trip is a hassle for many travellers as the booking process involves various products, making the customer journey even more complicated than in other industries. To help online travel agencies to improve conversation across travellers' digital journeys, we proposed a travel data warehouse using social media, search engines and MySwitzerland data. We generated traveller insights into a dashboard aimed at helping Swiss OTAs better understand traveller needs and optimise their online booking experience and conversion across the traveller's digital journey.
+Booking a trip is a hassle for many travellers as the booking process involves various products, making the customer journey even more complicated than in other industries. To help online travel agencies to improve conversion across travellers' digital journeys, we collected data via APIs from Instagram, Google Trends and MySwitzerland to build a travel data lake. Then, we generated traveller insights into a dashboard aimed at helping Swiss OTAs better understand traveller needs to improve conversion rates across the traveller's digital journey.
 
 # Authors & Contribution
  - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Strategy, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
