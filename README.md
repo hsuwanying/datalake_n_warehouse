@@ -95,7 +95,7 @@ A full dashboard can be seen in [Tableau Public](https://public.tableau.com/app/
 
 
 # Limitation
-Initially, we wanted to get location tags to create a location-hunting app. However, due to privacy issues, we couldn't access location tags because Instagram deprecated the local tag endpoint from its API. Therefore, we decided to use #inLoveWithSwitzerland, a hashtag used by MySwitzerland, and 26 Kantons' names in English as the basis to fetch relevant hashtags in each Instagram post. Although we couldn't capture all the locations in Switzerland, the collected information was sufficient to create a minimal viable prototype for this project.
+Initially, we wanted to get location tags to create a location-hunting app. However, due to privacy issues, we couldn't access location tags because Instagram deprecated the local tag endpoint from its API. Therefore, we decided to use #inLoveWithSwitzerland, a hashtag used by [MySwitzerland](https://www.instagram.com/myswitzerland/), and 26 Kantons' names in English as the basis to fetch relevant hashtags in each Instagram post. Although we couldn't capture all the locations in Switzerland, the collected information was sufficient to create a minimal viable prototype for this project.
 
 # Conclusion
 The design of the database helps us to realize the information that is obtained from both Google Trends and Instagram. We can generate insights to answer our business questions by establishing analysis requirements. Since we do not have data from the user side, the dashboard is more focused on the value creation to business providers such as online travel agents and marketing firms, so that can utilize matrics from this dashboard to provide more personalized service and products to travelers.
@@ -105,7 +105,7 @@ This project taught me many hard skills in data engineering, which equipped me w
 
 # Code Files
   - Airflow Dag:
-    - [callapi.py](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/callapi.py): DAG file fetches media information from Posts on Instagram based on 30 unique hashtags
+    - [callapi.py](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/callApi.py): DAG file fetches media information from Posts on Instagram based on 30 unique hashtags
 
   - Jupyter Notebook:
     - [List_of_Zip_code_Switzerland.ipynb](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/List_of_Zip_code_Switzerland.ipynb): zip_code.csv data cleaning and loading to RDS_PostgreSQL
