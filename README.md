@@ -26,7 +26,7 @@ Booking a trip is a hassle for many travellers as the booking process involves v
  
 # Table of Content
  - [Background](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#background)
- - [Business Problem](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#business-problem)
+ - [Problem](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#problem)
  - [Solution](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#solution)
  - [Methods](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#methods)
  - [Data Source](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#data-source)
@@ -38,14 +38,15 @@ Booking a trip is a hassle for many travellers as the booking process involves v
  - [Reference](https://github.com/hsuwanying/traveller-insights-analysis/blob/main/README.md#reference)
 
 # Background
+
+According to Expedia(2015), travellers visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The entire trip booking process involves several steps and can be stressful for traveller, this is because there are too many products and options occurs the search phase, and that put travelers in the paradox of choice and make the customer journey even more complicated than in other industries.
+
+# Problem
 > *Websites that provide travel-related products have a 98% abandonment rate among all businesses. Statista (2022)* 
 
-According to Expedia(2015), travellers visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The booking process includes finding where to travel, which airline to fly with, where to stay, and so on. Each step involved too many products and options that put travelers in the paradox of choice and make the customer journey even more complicated than in other industries.
+Despite online travel agencies still play an important role within the customer journey, OTAs are suffering from the low conversion rate as Statista reveal that travel related websites received the highest shopping cart abandonment rate among other consumer goods sectors. This is because are too many things involved in the booking process, and this will affect the traveller's decision. As  consumers spend more time searching for trips, they will take longer to decide whether to book. This means that the OTAs will have less impact on consumers' buying decisions.
 
-# Business Problem
-Online travel agencies still play an essential role, particularly in the search phase of a customer journey. However, the longer the consumers spend on search and planning, the slower they make decisions. That means the OTAs will have less impact on consumers' buying decisions; therefore, a delayed buying decision will lead to low conversion and affect sales.
-
-# Soution
+# Solution
 When mapping out a traveler's digital journey, we found social media has gained importance in the traveler's decision-making process (Smith & Anderson,2018). Travel feeds on Instagram have become one of the powerful indicators that trigger travelers’ decision to plan where they should visit on upcoming trips (Han & Chen, 2021). To understand how social media and online search impact travelers' buying decisions and to help Swiss OTAs improve online booking experience and effective marketing, we designed a traveler insights dashboard that presents crucial metrics and trends by analyzing social media and search engine data.
 
 # Methods
