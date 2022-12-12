@@ -6,8 +6,8 @@
 </p>
 <br>
 
-# Discovering Immstagramable Destinations in Switzerland
-### Developed end-to-end data pipelines to address decreasing online conversion rates for Swiss online travel agencies
+# Traveller Insights analysis: From Data Collection to Data Visualization
+### Discovering Immstagramable Destinations in Switzerland: Developed end-to-end data pipelines to address decreasing online conversion rates for Swiss online travel agencies
 
 ["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says).
 Booking a trip is a hassle for many travellers as the booking process involves various products, making the customer journey even more complicated than in other industries. To help online travel agencies to improve conversion across travellers' digital journeys, we collected data via APIs from Instagram, Google Trends and MySwitzerland to build a travel data lake. Then, we generated traveller insights into a dashboard aimed at helping Swiss OTAs better understand traveller needs to improve conversion rates across the traveller's digital journey.
