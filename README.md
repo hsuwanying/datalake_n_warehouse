@@ -6,11 +6,12 @@
 </p>
 <br>
 
-# Traveller Insights analysis: From Data Collection to Data Visualization
-### Discovering Immstagramable Destinations in Switzerland: Developed end-to-end data pipelines to address decreasing online conversion rates for Swiss online travel agencies
+# Discovering Instagrammable Attractions in Switzerland: From Data Collection to Data Visualization
+### Developed end-to-end data pipelines to address decreasing online conversion rates for Swiss online travel agencies
 
 ["Travel is complicated to book", Expedia(2015)](https://www.travelmarketreport.com/articles/Consumers-Visit-38-Sites-Before-Booking-Expedia-Says).
-Booking a trip is a hassle for many travellers as the booking process involves various products, making the customer journey even more complicated than in other industries. To help online travel agencies to improve conversion across travellers' digital journeys, we collected data via APIs from Instagram, Google Trends and MySwitzerland to build a travel data lake. Then, we generated traveller insights into a dashboard aimed at helping Swiss OTAs better understand traveller needs to improve conversion rates across the traveller's digital journey.
+Booking a trip is a hassle for many travellers as the booking process involves various products, making the customer journey even more complicated than in other industries. To capture traveller preferences through digital touch-points and help online travel agencies to improve conversion across travellers’ digital journeys, a data lake and a data-driven traveller insight dashboard are created aims to help OTAs optimize digital experience and marketing strategy. In this project, the Design Thinking methodology is adopted to define the use case, persona and critical touch-points to establish a data collection strategy. A series of Data engineering includes planning data architecture, constructing data pipelines and fetching data using open APIs deployed for building a traveller database. Following that, data manipulation and data analysis were conducted to generate traveller insights, and finally, a dashboard is to address decreasing online conversion rates for Swiss online travel agencies.
+
 
 # Authors & Contribution
  - [Carol Hsu](https://github.com/hsuwanying): Business Design, Data Strategy, Data Engeneering (Instagram, MySwtitzerland, Die Post), Data Analysis, Prototype
@@ -37,19 +38,19 @@ Booking a trip is a hassle for many travellers as the booking process involves v
 
 # Background
 
-According to Expedia(2015), travellers visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The entire trip booking process involves several steps and can be stressful for traveller, this is because there are too many products and options occurs the search phase, and that put travelers in the paradox of choice and make the customer journey even more complicated than in other industries.
+According to Expedia(2015), travellers visit an average of [38 websites](https://advertising.expedia.com/blog/research/how-marketers-can-reach-travel-bookers-across-the-consumer-funnel/) before booking a trip. The entire trip booking process involves several steps and can be stressful for travellers, this is because there are too many products and options that occur during the search phase, and that puts travellers in the paradox of choice and make the customer journey even more complicated than in other industries.
 
 # Problem
 > *Websites that provide travel-related products have a 98% abandonment rate among all businesses. Statista (2022)* 
 
-Despite online travel agencies still play an important role within the customer journey, OTAs are suffering from the low conversion rate as Statista reveal that travel related websites received the highest shopping cart abandonment rate among other consumer goods sectors. This is because are too many things involved in the booking process, and this will affect the traveller's decision. As  consumers spend more time searching for trips, they will take longer to decide whether to book. This means that the OTAs will have less impact on consumers' buying decisions.
+Despite online travel agencies still playing an important role in the customer journey, OTAs are suffering from a low conversion rate as Statista reveals that travel-related websites received the highest shopping cart abandonment rate among other consumer goods sectors. This is because are too many things involved in the booking process, and this will affect the traveller's decision. As consumers spend more time searching for trips, they will take longer to decide whether to book. This means that the OTAs will have less impact on consumers' buying decisions.
 
 # Solution
-When mapping out a traveler's digital journey, we found social media has gained importance in the traveler's decision-making process (Smith & Anderson,2018). Travel feeds on Instagram have become one of the powerful indicators that trigger travelers’ decision to plan where they should visit on upcoming trips (Han & Chen, 2021). To understand how social media and online search impact travelers' buying decisions and to help Swiss OTAs improve online booking experience and effective marketing, we designed a traveler insights dashboard that presents crucial metrics and trends by analyzing social media and search engine data.
+When mapping out a traveller's digital journey, we found social media has gained importance in the traveller's decision-making process (Smith & Anderson,2018). Travel feeds on Instagram have become one of the powerful indicators that trigger travellers’ decisions to plan where they should visit on upcoming trips (Han & Chen, 2021). To understand how social media and online search impact travellers' buying decisions and to help Swiss OTAs improve online booking experience and effective marketing, we designed a traveller insights dashboard that presents crucial metrics and trends by analyzing social media and search engine data.
 
 # Methods
 A travel database is built with the following data engeneer techniques: 
- 1. Define Data Collection strategies: Define the scope of the project and collect data from accros traveler digital touchpoints
+ 1. Define Data Collection strategies: Define the scope of the project and collect data from across traveller digital touchpoints
  2. Design Database and Construct Data Piplines: Present a business data schema Construct ETL and ELT workflow use [Apache Airflow](https://airflow.apache.org)
  3. Built Data Architecture: Demonstrates data system with [AWS RDS](https://aws.amazon.com/rds/) according to business needs
  4. Prototyping: Based on predefine business questions to design visualiation datashboard layout
@@ -68,17 +69,15 @@ A travel database is built with the following data engeneer techniques:
 | [die Post ](https://swisspost.opendatasoft.com/explore/dataset/plz_verzeichnis_v2/table/?disjunctive.postleitzahl) | Download the “PLZ_Verzeichnis” CSV file via the link<br />It provides  `Postleitzahl`, `Ortbez18`, and `Kanton`, and information of each city |
 
 # Result: Proposed Prototype
-We constructed data pipelines to address the business problem that presents critical metrics with our proposed traveler insight dashboard. The IG Hashtag Statistic graph gives information about hashtag usage in each Instagram post. We can answer the following questions:
+We constructed data pipelines to address the business problem that presents critical metrics with our proposed traveller insight dashboard. The IG Hashtag Statistic graph gives information about hashtag usage in each Instagram post. We can answer the following questions:
 
 <br>
 
-**Business Questions 1**:
-“How can we improve the tourist travel experience in Switzerland by utilizing social media and search engine data? “
-1. What are the popular destinations in Switzerland that people search for traveling?
+**Business Questions 1**: *How can we improve the tourist travel experience in Switzerland by utilizing social media and search engine data?*
+1. What are the popular destinations in Switzerland that people search for travelling?
 2. Which city do people are interested in the most in Switzerland?
 
-**Business Questions 2**:
-“How do individuals and businesses utilize social media hashtags to boost their online presence and performance?”
+**Business Questions 2**: *“How do individuals and businesses utilize social media hashtags to boost their online presence and performance?”*
 1. What are the popular hashtags (top 5) used in Switzerland?
 2. What are the popular hashtags (top 5) based on Swiss canton, city, or destination names?
 
@@ -88,7 +87,7 @@ We constructed data pipelines to address the business problem that presents crit
 <br>IG Hashtag Statistic
 </p>
 <br>
-Posts with the hashtag Zurich receives the most likes, which has 169’235 likes and 6’170 comments; in the same period, Valais and Luzern are the second and third popular place, with 144’957 and 120’267 likes respectively. Following that, the donut chart shows Zurich, Wallis and Uri are the most popular cantons, and Zurich, Zermatt, and Interlaken are the most admired cities. Therefore, we can conclude that Zurich is the most popular and most visited place in Switzerland.
+Posts with the hashtag Zurich receives the most likes, which has 169’235 likes and 6’170 comments; in the same period, Valais and Luzern are the second and third popular place, with 144’957 and 120’267 likes respectively. Following that, the doughnut chart shows Zurich, Wallis and Uri are the most popular cantons, and Zurich, Zermatt, and Interlaken are the most admired cities. Therefore, we can conclude that Zurich is the most popular and most visited place in Switzerland.
 
 A full dashboard can be seen in [Tableau Public](https://public.tableau.com/app/profile/yang7231/viz/Dashboard_final_16402072757680/FinalDashboard?publish=yes)
 
